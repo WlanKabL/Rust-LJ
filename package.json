@@ -1,0 +1,33 @@
+{
+  "name": "rust-lj",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WlanKabL/Rust-LJ.git"
+  },
+  "keywords": [
+    "rust",
+    "api",
+    "rustplus",
+    "light",
+    "management"
+  ],
+  "author": "WlanKabL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WlanKabL/Rust-LJ/issues"
+  },
+  "homepage": "https://github.com/WlanKabL/Rust-LJ#readme",
+  "description": "",
+  "dependencies": {
+    "@liamcottle/rustplus.js": "^2.5.0",
+    "cue-sdk": "^4.0.84",
+    "express": "^4.21.0",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.8.0"
+  }
+}
