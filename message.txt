@@ -1,0 +1,262 @@
+{
+    "broadcast": {
+        "teamMessage": {
+            "message": {
+                "steamId": "76561198315729279",
+                "name": "WlanKabL",
+                "message": "Rust-LJ is now online!",
+                "color": "#af5",
+                "time": 1727566179
+            }
+        }
+    }
+}
+{
+    "response": {
+        "seq": 1,
+        "success": {}
+    }
+}
+{
+    "broadcast": {
+        "teamMessage": {
+            "message": {
+                "steamId": "76561198315729279",
+                "name": "WlanKabL",
+                "message": "Rust-LJ is now online!",
+                "color": "#af5",
+                "time": 1727566525
+            }
+        }
+    }
+}
+{
+    "response": {
+        "seq": 1,
+        "success": {}
+    }
+}
+{
+    "response": {
+        "seq": 2,
+        "error": {
+            "error": "not_found"
+        }
+    }
+}
+{
+    "broadcast": {
+        "teamMessage": {
+            "message": {
+                "steamId": "76561198315729279",
+                "name": "WlanKabL",
+                "message": "Rust-LJ is now online!",
+                "color": "#af5",
+                "time": 1727566667
+            }
+        }
+    }
+}
+{
+    "response": {
+        "seq": 1,
+        "success": {}
+    }
+}
+{
+    "response": {
+        "seq": 2,
+        "error": {
+            "error": "not_found"
+        }
+    }
+}
+{
+    "broadcast": {
+        "teamMessage": {
+            "message": {
+                "steamId": "76561198315729279",
+                "name": "WlanKabL",
+                "message": "Rust-LJ is now online!",
+                "color": "#af5",
+                "time": 1727566683
+            }
+        }
+    }
+}
+{
+    "response": {
+        "seq": 1,
+        "success": {}
+    }
+}
+{
+    "response": {
+        "seq": 2,
+        "entityInfo": {
+            "type": "Switch",
+            "payload": {
+                "value": false,
+                "capacity": 0,
+                "hasProtection": false,
+                "protectionExpiry": 0
+            }
+        }
+    }
+}
+{
+    "broadcast": {
+        "entityChanged": {
+            "entityId": 10605520,
+            "payload": {
+                "value": true,
+                "capacity": 0,
+                "hasProtection": false,
+                "protectionExpiry": 0
+            }
+        }
+    }
+}
+{
+    "broadcast": {
+        "entityChanged": {
+            "entityId": 10605520,
+            "payload": {
+                "value": false,
+                "capacity": 0,
+                "hasProtection": false,
+                "protectionExpiry": 0
+            }
+        }
+    }
+}
+{
+    "broadcast": {
+        "entityChanged": {
+            "entityId": 10605520,
+            "payload": {
+                "value": true,
+                "capacity": 0,
+                "hasProtection": false,
+                "protectionExpiry": 0
+            }
+        }
+    }
+}
+{
+    "broadcast": {
+        "teamMessage": {
+            "message": {
+                "steamId": "76561198315729279",
+                "name": "WlanKabL",
+                "message": "Rust-LJ is now online!",
+                "color": "#af5",
+                "time": 1727570336
+            }
+        }
+    }
+}
+{
+    "response": {
+        "seq": 1,
+        "success": {}
+    }
+}
+{
+    "response": {
+        "seq": 2,
+        "entityInfo": {
+            "type": "Switch",
+            "payload": {
+                "value": false,
+                "capacity": 0,
+                "hasProtection": false,
+                "protectionExpiry": 0
+            }
+        }
+    }
+}
+{
+    "broadcast": {
+        "entityChanged": {
+            "entityId": 10605520,
+            "payload": {
+                "value": true,
+                "capacity": 0,
+                "hasProtection": false,
+                "protectionExpiry": 0
+            }
+        }
+    }
+}
+{
+    "response": {
+        "seq": 3,
+        "success": {}
+    }
+}
+{
+    "broadcast": {
+        "entityChanged": {
+            "entityId": 10605520,
+            "payload": {
+                "value": false,
+                "capacity": 0,
+                "hasProtection": false,
+                "protectionExpiry": 0
+            }
+        }
+    }
+}
+{
+    "broadcast": {
+        "teamMessage": {
+            "message": {
+                "steamId": "76561198315729279",
+                "name": "WlanKabL",
+                "message": "Rust-LJ is now online!",
+                "color": "#af5",
+                "time": 1727570516
+            }
+        }
+    }
+}
+{
+    "response": {
+        "seq": 1,
+        "success": {}
+    }
+}
+{
+    "response": {
+        "seq": 2,
+        "entityInfo": {
+            "type": "Switch",
+            "payload": {
+                "value": false,
+                "capacity": 0,
+                "hasProtection": false,
+                "protectionExpiry": 0
+            }
+        }
+    }
+}
+{
+    "broadcast": {
+        "entityChanged": {
+            "entityId": 10605520,
+            "payload": {
+                "value": true,
+                "capacity": 0,
+                "hasProtection": false,
+                "protectionExpiry": 0
+            }
+        }
+    }
+}
+{
+    "response": {
+        "seq": 3,
+        "success": {}
+    }
+}

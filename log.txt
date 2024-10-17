@@ -1,0 +1,32 @@
+{
+    "broadcast": {
+        "teamMessage": {
+            "message": {
+                "steamId": "76561198315729279",
+                "name": "WlanKabL",
+                "message": "Rust-LJ is now online!",
+                "color": "#af5",
+                "time": 1727565553
+            }
+        }
+    }
+}
+{
+    "response": {
+        "seq": 1,
+        "success": {}
+    }
+}
+{
+    "broadcast": {
+        "teamMessage": {
+            "message": {
+                "steamId": "76561198315729279",
+                "name": "WlanKabL",
+                "message": "a",
+                "color": "#af5",
+                "time": 1727565811
+            }
+        }
+    }
+}

@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Smart Switch Controller</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./style.css">
-	<title>Rust Light Controller</title>
-</head>
-
-<body>
-	<div class="header">
-		<h3 id="title">Rust Light Controller</h3>
-	</div>
-
-	<div class="container">
-		<div id="panel-left">
-			<h4>master switches</h4>
-			<div id="panel-master"></div>
-
-			<h4>all switches</h4>
-			<div id="panel-all"></div>
-
+	<body>
+		<div class="container">
+			<h1>Smart Switch Controller</h1>
+			<button id="openPopup" class="btn-main">
+				Setup Smart Switches
+			</button>
 		</div>
 
-		<div id="panel-right">
+		<!-- Setup und Steuerungs-Popup -->
+		<div id="popup" class="popup hidden">
+			<div class="popup-content-large">
+				<h2 id="switchName">Smart Switch Setup</h2>
+				<div id="switchStatus" class="switch-status hidden"></div>
 
+				<!-- Setup Button -->
+				<button id="start" class="btn-secondary">
+					Initialize Setup
+				</button>
+
+				<!-- Dropdown für Gruppensteuerung -->
+				<label for="groupSelect">Select Group:</label>
+				<select id="groupSelect" class="input">
+					<!-- <option value="all">All Masters</option>
+					<option value="smoke">Smoke</option>
+					<option value="sirenBlue">Siren Blue</option>
+					<option value="sirenRed">Siren Red</option>
+					<option value="strobe">Strobe</option>
+					<option value="danceFloor">Dance Floor</option>
+					<option value="colorful.red">Colorful Red</option>
+					<option value="colorful.blue">Colorful Blue</option>
+					<option value="colorful.green">Colorful Green</option>
+					<option value="colorful.yellow">Colorful Yellow</option>
+					<option value="colorful.pink">Colorful Pink</option> -->
+				</select>
+
+				<!-- Steuerungsbuttons für Setup -->
+				<div class="control-buttons">
+					<button id="prev" class="btn-secondary">Prev</button>
+					<button id="next" class="btn-secondary">Next</button>
+				</div>
+
+				<!-- Spezifische Switch-Steuerung -->
+				<input
+					type="text"
+					id="specificInput"
+					class="input"
+					placeholder="Enter specific Switch ID..."
+				/>
+				<button id="sendSpecific" class="btn-secondary">
+					Send Command
+				</button>
+
+				<!-- Schließen-Button für Popup -->
+				<button id="closePopup" class="btn-main">Close</button>
+			</div>
 		</div>
-	</div>
 
-
-
-	<script src="./script.js"></script>
-</body>
-
+		<audio
+			id="audio"
+			src="../server/payment_success.mp3"
+			preload="auto"
+		></audio>
+		<script src="script.js"></script>
+	</body>
 </html>
